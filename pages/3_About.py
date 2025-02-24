@@ -10,7 +10,7 @@ Explore insights on subscriber count and video count, along with visualizations 
 st.markdown("""
 <style>
 .button {
-    background-color: #4CAF50;
+    background-color: yellow;
     border: none;
     color: white;
     padding: 10px 20px;
@@ -21,6 +21,7 @@ st.markdown("""
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 4px;
+    font-weight: bold;
 }
 </style>
 <a href="https://rjscrapy.pythonanywhere.com/developer" target="_blank" class="button">Connect with Developer</a>
