@@ -1,2 +1,8 @@
 /.venv
 /api_logs_2025-02-23_04-38-51.json
+secrets.toml
+__pycache__/
+*.py[cod]
+*$py.class
+/.devcontainer/
+/.streamlit/
