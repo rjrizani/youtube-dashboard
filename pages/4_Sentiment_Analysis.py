@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-from analysisMethod import sentiment
+from src.analysisMethod import sentiment
 
 st.title("Sentiment Analysis of YouTube Comments")
 st.markdown("""
