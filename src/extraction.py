@@ -2,14 +2,6 @@ import googleapiclient.discovery
 import pandas as pd
 import streamlit as st
 
-#import os
-#from pathlib import Path
-#from dotenv import load_dotenv
-
-#env_path = Path('C:/Users/rjriz/freelance') / '.env'
-#load_dotenv(dotenv_path=env_path)
-
-#DEVELOPER_KEY = os.getenv("youTube-key")
 DEVELOPER_KEY = st.secrets["youtube"]["youTube-key"]
 
 if not DEVELOPER_KEY:

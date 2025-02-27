@@ -1,5 +1,4 @@
-import matplotlib.pyplot as plt
-import seaborn as sns
+
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 from src.extraction import get_comments
 import pandas as pd
