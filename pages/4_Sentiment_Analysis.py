@@ -2,11 +2,14 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-from src.analysisMl import sentiment
+from analysisMethod import sentiment
 
 st.title("Sentiment Analysis of YouTube Comments")
 st.markdown("""
-**CSV File Requirements:** """)
+**CSV File Requirements:**
+**text**: "Text of the comment"
+
+            """)
 
 # File uploader for CSV
 uploaded_file = st.file_uploader("Upload a CSV file", type=["csv"])
