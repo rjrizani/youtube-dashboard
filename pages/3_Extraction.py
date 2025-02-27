@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-from extraction import get_comments
+from src.extraction import get_comments
 
 
 st.title('Youtube Data Extraction')
@@ -23,6 +23,8 @@ if extract:
     df = get_comments(videoId=input_id)
     st.write('Comments extracted:')
     st.dataframe(df)
+    st.write('---')
+    st.write('Go to Sentiment Analysis of Comments')
 else:
     st.write('Click the button to extract comments')
 

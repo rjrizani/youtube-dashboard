@@ -6,3 +6,4 @@ __pycache__/
 *$py.class
 /.devcontainer/
 /.streamlit/
+comments.csv
